@@ -1,7 +1,48 @@
 * {
     margin: 0;
+    font-family: Helvetica;
 }
 
 body {
-    background: white
+    background: white;
+    
+}
+
+#section_1 {
+    /*background:  #707070 0% 0% no-repeat padding-box;*/
+    background: linear-gradient(-161deg, #707070 70%, #fff 25%);
+    height: 328px;
+    padding-left: 16px;
+    padding-top: 66px;
+}
+
+.titulos_1 {
+    color: #fff;
+}
+
+.titulos_1 h1 {
+    font-size: 40px;
+}
+
+.titulos_1 h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.titulos_1 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.botoes_1 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botoes_1 button {
+    width: 160px;
+    height: 40px;
+    margin: 0 21px 20px 0;
 }
