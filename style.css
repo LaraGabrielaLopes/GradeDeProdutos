@@ -18,6 +18,7 @@ body {
 
 .titulos_1 {
     color: #fff;
+    padding-right: 46px;
 }
 
 .titulos_1 h1 {
@@ -45,4 +46,50 @@ body {
     width: 160px;
     height: 40px;
     margin: 0 21px 20px 0;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    color: #888888;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#section_2{
+    padding-left: 16px;
+    padding-right: 18px;
+    margin-bottom: 30px;
+}
+
+.titulo_ajuda_2{
+    color: #888888;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+
+.paragrafo_ajuda_2{
+    color: #888888;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify; 
+}
+
+.formulario_ajuda_2{
+    color: #888888;
+    font-family: Helvetica;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_ajuda_2 label{
+    margin-bottom: 7px;
+}
+
+.formulario_ajuda_2 input{
+    height: 30px;
+    border: 1px solid #707070;
+    margin-bottom: 20px;
 }
