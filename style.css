@@ -112,3 +112,25 @@ body {
     font-family: Helvetica;
     font-size: 12px;
 }
+
+.titulo_3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #707070;
+    display: flex;
+    justify-content: center;
+}
+
+.line_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    flex: 1;
+    border: none;
+    border-top: 1px solid #707070;
+    margin: 0 10px;
+}
+
