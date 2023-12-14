@@ -54,7 +54,12 @@
             <h1 class="titulo_3"> Sua seleção especial</h1>
             <hr class="line">
         </div>
-            <div class="produto_1">
+        <div id="produtosContainer"></div>
+        <div>
+            <button onclick="carregarMaisProdutos()">Ainda mais produtos aqui</button>
+        </div>
+        </section>
+            <!-- <div class="produto_1">
                 <div>
                     <img src="" alt="">
                 </div>
@@ -95,19 +100,15 @@
                     <h3>Por: R$ 19,99</h3>
                     <span>Ou 2x de R$9,99</span>
                 </div>
-            </div>
-            <div>
-                <button>Ainda mais produtos aqui</button>
-            </div>
-    </section>
+            </div> -->
     <section id="section_4">
         <div>
-            <form>
+            <form onsubmit="return validarFormulario()">
                 <h1>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</h1>
                 <label>Nome do seu amigo:</label><br>
-                <input><br>
+                <input id="nomeAmigoInput" required><br>
                 <label>E-mail dele:</label><br>
-                <input type="email"><br>
+                <input type="email" id="emailAmigoInput" required><br>
                 <button type="submit">Enviar</button>
             </form>
         </div>
